@@ -1,4 +1,4 @@
-# xlMATRIX v. 0.2
+# xlMATRIX v. 0.3
 
 Handle vectors and matrices in Excel as easy as in MatLab: slice, reverse, stack, shelve and more with lambda functions. No VBA!
 
@@ -17,3 +17,6 @@ Added functions M, SLICE, VEC, SAMPLE, NOZERO, EYE, ZEROS, ONES, DIAG, TRIL, TRI
 Added functions SPLIT and TEXTTOCHAR.
 
 Added functions OLS_COEFF, OLS_COEFF_STDEV, OLS_VARCOV, OLS_FITTED, and OLS_RESIDUALS.
+
+### v. 0.3
+Added functions ADDCONST, ADDTREND, DUMMYVAR, and SEASADJ.
