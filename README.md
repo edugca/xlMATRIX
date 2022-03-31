@@ -20,3 +20,6 @@ Added functions OLS_COEFF, OLS_COEFF_STDEV, OLS_VARCOV, OLS_FITTED, and OLS_RESI
 
 ### v. 0.3
 Added functions ADDCONST, ADDTREND, DUMMYVAR, and SEASADJ.
+
+### v. 0.3.1
+Added parameter nPower to function ADDTREND.
