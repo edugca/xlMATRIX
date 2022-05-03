@@ -1,4 +1,4 @@
-# xlMATRIX v. 0.3.1
+# xlMATRIX v. 0.4
 
 Handle vectors and matrices in Excel as easy as in MatLab: slice, reverse, stack, shelve and more with lambda functions. No VBA! Many functions from MatLab are coded in Excel keeping their original names.
 
@@ -23,3 +23,6 @@ Added functions ADDCONST, ADDTREND, DUMMYVAR, and SEASADJ.
 
 ### v. 0.3.1
 Added parameter nPower to function ADDTREND.
+
+### v. 0.4
+Added functions DETREND, SIZE, and HPFILTER.
