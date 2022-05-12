@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # xlMATRIX v. 0.5
 =======
 
@@ -31,5 +30,3 @@ Added functions DETREND, SIZE, and HPFILTER.
 
 ### v. 0.5
 Added functions LAG, LEAD, GRANGER, and ANOVA.
-=======
-<<<<<<< HEAD
