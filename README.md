@@ -5,7 +5,7 @@ Handle vectors and matrices in Excel as easy as in MatLab: slice, reverse, stack
 ## History
 
 ### v. 0.7
-- Added functiond MOVAVG, MOVSUM, MOVPROD, SEASFACTOR, TSTREND, STARTSWITH, ENDSWITH, CONTAINS, ISMEMBER, AGGREGBYDATE, EIGENVALUES, EIGENVECTORS, MNORM, EVALS, FZERO.
+- Added functions MOVAVG, MOVSUM, MOVPROD, SEASFACTOR, TSTREND, STARTSWITH, ENDSWITH, CONTAINS, ISMEMBER, AGGREGBYDATE, EIGENVALUES, EIGENVECTORS, MNORM, EVALS, FZERO.
 - Function SEASADJ's description was updated.
 - Function DETREND now allows for log-detrending. Parameter "nPower" was renamed to "type".
 
