@@ -1,8 +1,23 @@
-# xlMATRIX (v. 0.7)
+# xlMATRIX (v. 0.8)
 
 Handle vectors and matrices in Excel as easy as in MatLab: slice, reverse, stack, shelve and more with Lambda functions. Conduct statistical and econometric analysis. No VBA! Many functions from MatLab are coded in Excel keeping their original names.
 
 ## History
+
+### v. 0.8
+- Added functions CORRCOEF, VARINFLATIONFACTOR, ISMULTICOLLINEAR, CONTAGION_FORBESRIGOBON, CONTAGION_COVOLATILITY, CONTAGION_COKURTOSIS, CONTAGION_COSKEWNESS, FACTORIZE_QR, FACTORIZE_CHOL, LINSOLVE, SUBS, OLS_HQC, OLS_SUMMARY, OLS_RESIDUALS_AR, HASCONST, VERTCAT_EX, HORZCAT_EX, BOOTSTRP, RANKRANGE.
+- Functions EIGENVALUES and EIGENVECTORS now are calculated through QR decomposition (much faster than previous algorithm based on finding roots of a polynomial).
+- Description of functions EIGENVECTORS and MNORM were updated.
+- Functions LAG and LEAD contained reference to function REVERSECOLS, old name of function FLIPLR. Now, they accept a matrix of column-vectors as input.
+- Functions FLIPLR and FLIPUD have a new algorithm and a new optional parameter [nSize].
+- Function OLS_LOGLIKELIHOOD has a new formula to match statistical packages. This change also impacts results of OLS_AIC and OLS_BIC.
+- Function ADDTREND now has a parameter for header's specification.
+- Function ADDCONST has a new algorithm, but should keep the same functionality.
+- Function REPMAT now has a parameter, [expandFromWithin], for expanding arrays by repeating each element on the directions requested.
+- Functions OLS_ESS, OLS_RSS, OLS_FSTAT, and OLS_FSTAT_PVALUE had their algorithms mended for regressions without an intercept.
+- Functions ALL and ANY had their algorithm changed to accept arrays as input instead of only arrays of cells.
+- Function SAMPLE had its parameter "replacement" renamed to "withoutReplacement" to avoid confusion.
+
 
 ### v. 0.7
 - Added functions MOVAVG, MOVSUM, MOVPROD, SEASFACTOR, TSTREND, STARTSWITH, ENDSWITH, CONTAINS, ISMEMBER, AGGREGBYDATE, EIGENVALUES, EIGENVECTORS, MNORM, EVALS, FZERO.
