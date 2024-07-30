@@ -1,4 +1,5 @@
 # xlMATRIX (v. 1.1)
+<img src="https://github.com/user-attachments/assets/bf152069-48d1-4ec1-87e8-a6edb5c0fbc6" width=50% height=50%>
 
 Handle vectors and matrices in Excel as easy as in MatLab: slice, reverse, stack, shelve and more with Lambda functions. Conduct statistical and econometric analysis. No VBA! Many functions from MatLab are coded in Excel keeping their original names.
 
