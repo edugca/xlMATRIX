@@ -1,4 +1,4 @@
-# xlMATRIX (v. 1.1)
+# xlMATRIX (v. 1.2)
 <img src="https://github.com/user-attachments/assets/bf152069-48d1-4ec1-87e8-a6edb5c0fbc6" width=50% height=50%>
 
 Handle vectors and matrices in Excel as easy as in MatLab: slice, reverse, stack, shelve and more with Lambda functions. Conduct statistical and econometric analysis. No VBA! Many functions from MatLab are coded in Excel keeping their original names.
@@ -7,6 +7,18 @@ The Gist file is available on:
 https://gist.github.com/edugca/5cf477673b7d8c76431ed9f52c09f7e7
 
 ## History
+
+### v. 1.2
+- Added functions AR_FITTED, AR_BACKCAST, MHFILTER, SPARSEDIV, FLATTEN, UNFLATTEN, COMBINATIONS, CMATRIX, CMSUM, CMSUB, CMPROD, CMMULT, CMDIV, CMCONJ, CMREAL, CMIMAGINARY, CMABS, CMARG, CMPOWER, CMCOS, CMSIN, CMSIGN, CMROUND, CMFORMAT, CMINVERSE.
+- Functions SPARSEPLUS, SPARSEMINUS and SPARSEDOT now allow that one of the sparse matrices is actually a scalar.
+- Function QR_FACTORIZE now has an additional parameter that allows returnin full (default) or reduced versions of the decomposition elements.
+- Function SPLITALL has now a different algorithm that relies on TEXTSPLIT instead of FILTERXML for Mac compatibility.
+- Bug fix: functions QR_FACTORIZE, EIGENVALUES and EIGENVECTORS work even if the matrix has zero-collinear or perfectly-collinear columns.
+- Bug fix: function SPARSEWISE was not operating properly when a non-sparse element in a matrix was matched with the sparse element of the other matrix.
+- Bug fix: function SLICE was retuning an array of errors when either rows or columns were not provided or were zero and parameter "remove" was TRUE.
+- Bug fix: function JACKKNIFE was not working due to a bug in the SLICE function.
+- Bug fix: function EYE returned error when number of columns were smaller than number of rows.
+- Bug fix: function GET was not working with [remove]=TRUE in the case of a single column matrix.
 
 ### v. 1.1
 - Added functions SHIFT, EVERY, AR_COEFF, AR_FORECAST, HFILTER, BKFILTER, CFFILTER, RWFILTER, CIRCSHIFT, APPLYROWS, APPLYCOLS, KFILTER, KFILTER_UPDATE, HENDFILTER, HENDFILTER_WEIGHTS, MAFILTER, CONV, SPARSEWISE, SPARSEPLUS, SPARSEMINUS, SPARSEDOT, SPARSEPOWER, SPARSET, SPARSEMULT, SPARSEEYE, SPARSEDIAG, SPARSEVSTACK, SPARSEHSTACK, SPARSESLICE.
