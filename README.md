@@ -11,7 +11,7 @@ https://gist.github.com/edugca/5cf477673b7d8c76431ed9f52c09f7e7
 ### v. 1.2
 - Added functions AR_FITTED, AR_BACKCAST, MHFILTER, SPARSEDIV, FLATTEN, UNFLATTEN, COMBINATIONS, CMATRIX, CMSUM, CMSUB, CMPROD, CMMULT, CMDIV, CMCONJ, CMREAL, CMIMAGINARY, CMABS, CMARG, CMPOWER, CMCOS, CMSIN, CMSIGN, CMROUND, CMFORMAT, CMINVERSE.
 - Functions SPARSEPLUS, SPARSEMINUS and SPARSEDOT now allow that one of the sparse matrices is actually a scalar.
-- Function QR_FACTORIZE now has an additional parameter that allows returnin full (default) or reduced versions of the decomposition elements.
+- Function QR_FACTORIZE now has an additional parameter that allows returning full (default) or reduced versions of the decomposition elements.
 - Function SPLITALL has now a different algorithm that relies on TEXTSPLIT instead of FILTERXML for Mac compatibility.
 - Bug fix: functions QR_FACTORIZE, EIGENVALUES and EIGENVECTORS work even if the matrix has zero-collinear or perfectly-collinear columns.
 - Bug fix: function SPARSEWISE was not operating properly when a non-sparse element in a matrix was matched with the sparse element of the other matrix.
