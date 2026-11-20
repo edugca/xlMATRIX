@@ -6,6 +6,10 @@ Handle vectors and matrices in Excel as easy as in MatLab: slice, reverse, stack
 The Gist file is available on:
 https://gist.github.com/edugca/5cf477673b7d8c76431ed9f52c09f7e7
 
+## Suggested citation
+
+Amaral, E. G. C. (2025). xlMATRIX: Matrix operations and econometrics in Excel (Version 1.2) [Computer software]. [GitHub](https://github.com/edugca/xlMATRIX).
+
 ## History
 
 ### v. 1.2
